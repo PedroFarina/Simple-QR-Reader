@@ -43,7 +43,7 @@ public final class SimpleQRViewController: UIViewController {
         .lightContent
     }
     
-    init() {
+    public init() {
         super.init(nibName: nil, bundle: nil)
         modalPresentationStyle = .fullScreen
     }
