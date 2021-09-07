@@ -13,7 +13,7 @@ public final class SimpleQRViewController: UIViewController {
     
     private let qrSessionManager: SimpleQRSessionManager = SimpleQRSessionManager()
     private lazy var previewLayer: AVCaptureVideoPreviewLayer = AVCaptureVideoPreviewLayer(session: qrSessionManager.captureSession)
-    internal var delegate: SimpleQROutputDelegate? {
+    public var delegate: SimpleQROutputDelegate? {
         get {
             return qrSessionManager.delegate
         }
