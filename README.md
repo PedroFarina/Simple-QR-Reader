@@ -1,3 +1,3 @@
 # Simple QR Reader
 
-A description of this package.
+A simple QR code reader integrated with a UIViewController with a dismiss button for iOS 13 or greater.
